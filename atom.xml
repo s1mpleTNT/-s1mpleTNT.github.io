@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://s1mpletnt.github.io/"/>
-  <updated>2020-03-23T11:14:09.471Z</updated>
+  <updated>2020-03-23T13:38:05.147Z</updated>
   <id>http://s1mpletnt.github.io/</id>
   
   <author>
@@ -17,19 +17,21 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>form表单练习</title>
-    <link href="http://s1mpletnt.github.io/2020/03/23/form%E8%A1%A8%E5%8D%95%E7%BB%83%E4%B9%A0/"/>
-    <id>http://s1mpletnt.github.io/2020/03/23/form%E8%A1%A8%E5%8D%95%E7%BB%83%E4%B9%A0/</id>
-    <published>2020-03-23T09:58:21.000Z</published>
-    <updated>2020-03-23T11:14:09.471Z</updated>
+    <title>form练习</title>
+    <link href="http://s1mpletnt.github.io/2020/03/23/form%E7%BB%83%E4%B9%A0/"/>
+    <id>http://s1mpletnt.github.io/2020/03/23/form%E7%BB%83%E4%B9%A0/</id>
+    <published>2020-03-23T12:57:51.000Z</published>
+    <updated>2020-03-23T13:38:05.147Z</updated>
     
     <summary type="html">
+    
+      &lt;h1 id=&quot;引言&quot;&gt;&lt;a href=&quot;#引言&quot; class=&quot;headerlink&quot; title=&quot;引言&quot;&gt;&lt;/a&gt;引言&lt;/h1&gt;&lt;h2 id=&quot;编写forn表单实现简单登录供能&quot;&gt;&lt;a href=&quot;#编写forn表单实现简单登录供能&quot; class=&quot;headerlink&quot; title=&quot;编写forn表单实现简单登录供能&quot;&gt;&lt;/a&gt;编写forn表单实现简单登录供能&lt;/h2&gt;&lt;h3 id=&quot;这是html源码截图&quot;&gt;&lt;a href=&quot;#这是html源码截图&quot; class=&quot;headerlink&quot; title=&quot;这是html源码截图&quot;&gt;&lt;/a&gt;这是html源码截图&lt;/h3&gt;&lt;p&gt;&lt;img src=&quot;/images/2.png&quot; alt=&quot;html源码&quot; title=&quot;html截图&quot;&gt;&lt;/p&gt;
     
     </summary>
     
     
     
-      <category term="下面作业是截图" scheme="http://s1mpleTNT.github.io/tags/%E4%B8%8B%E9%9D%A2%E4%BD%9C%E4%B8%9A%E6%98%AF%E6%88%AA%E5%9B%BE/"/>
+      <category term="练习" scheme="http://s1mpleTNT.github.io/tags/%E7%BB%83%E4%B9%A0/"/>
     
   </entry>
   
