@@ -26,12 +26,25 @@
   </entry>
   <entry>
     <title>form练习</title>
-    <url>/2020/03/23/form%E7%BB%83%E4%B9%A0/</url>
-    <content><![CDATA[<h1 id="编写form表单实现简单登录功能"><a href="#编写form表单实现简单登录功能" class="headerlink" title="编写form表单实现简单登录功能"></a>编写form表单实现简单登录功能</h1><p>#这是html源码截图<br><img src="/images/2.png" alt="html源码" title="html截图"></p>
-<a id="more"></a>
+    <url>/2020/03/23/form%E8%A1%A8%E5%8D%95%E7%BB%83%E4%B9%A0/</url>
+    <content><![CDATA[<h1 id="编写form表单实现简单登录功能"><a href="#编写form表单实现简单登录功能" class="headerlink" title="编写form表单实现简单登录功能"></a>编写form表单实现简单登录功能</h1><a id="more"></a>
 
-<p>#这是php源码截图<br><img src="/images/1.png" alt="php源码" title="php截图"></p>
-<p>#这是网页效果截图<br><img src="/images/3.png" alt="网页截图" title="网页截图"></p>
+<p><strong><em>form表单练习</em></strong></p>
+<ol>
+<li>html源码</li>
+</ol>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;!DOCTYPE html&gt;</span><br><span class="line">&lt;html&gt;</span><br><span class="line">&lt;head&gt;</span><br><span class="line">	&lt;meta charset&#x3D;&quot;utf-8&quot;&#x2F;&gt;</span><br><span class="line">	&lt;title&gt;登录界面&lt;&#x2F;title&gt;</span><br><span class="line">&lt;&#x2F;head&gt;</span><br><span class="line">&lt;body&gt;</span><br><span class="line">	&lt;h1&gt;login&lt;&#x2F;h1&gt;</span><br><span class="line">	&lt;form action&#x3D;&quot;1.php&quot; method&#x3D;&quot;post&quot; enctype&#x3D;&quot;multipart&#x2F;form-data&quot;&gt;</span><br><span class="line">	账户：&lt;input type&#x3D;&quot;text&quot; name&#x3D;&quot;username&quot;  &gt;&lt;br&#x2F;&gt;&lt;br&#x2F;&gt;</span><br><span class="line"></span><br><span class="line">	密码：&lt;input type&#x3D;&quot;password&quot; name&#x3D;&quot;password&quot; &gt;&lt;br&#x2F;&gt;&lt;br&#x2F;&gt;	</span><br><span class="line"></span><br><span class="line">	&lt;button style&#x3D;&quot;margin-top: 20;&quot; type&#x3D;&quot;submite&quot;&gt;提交&lt;&#x2F;button&gt;</span><br><span class="line">	&lt;&#x2F;form&gt;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&lt;&#x2F;body&gt;</span><br><span class="line">&lt;&#x2F;html&gt;</span><br></pre></td></tr></table></figure>
+
+<ol>
+<li>php源码</li>
+</ol>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;?php</span><br><span class="line"></span><br><span class="line">	$username&#x3D;$_POST[&#39;username&#39;];</span><br><span class="line">	$password&#x3D;$_POST[&#39;password&#39;];</span><br><span class="line">	if($username&#x3D;&#x3D;&#39;12345&#39; &amp;&amp; $password&#x3D;&#x3D;&#39;12345&#39;)&#123;</span><br><span class="line">		echo &quot;&lt;script&gt;window.location.href&#x3D;&#39;https:&#x2F;&#x2F;www.baidu.com&#39;;&lt;&#x2F;script&gt;&quot;;</span><br><span class="line">	&#125;</span><br><span class="line">	else&#123;</span><br><span class="line">		echo &#39;This is your information&lt;br&gt;&#39;;</span><br><span class="line">		echo &#39;&lt;br&gt;&#39;;</span><br><span class="line">		echo &#39;Username:&#39;;</span><br><span class="line">		echo $username;</span><br><span class="line">		echo &#39;&lt;br&gt; &lt;br&gt;&#39;;</span><br><span class="line">		echo &#39;Password&#39;;</span><br><span class="line">		echo $password;</span><br><span class="line">	&#125;</span><br></pre></td></tr></table></figure>
+
+
+
+<ol start="3">
+<li>网页截图<br> <img src="https://img-blog.csdnimg.cn/20200324134011304.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NTE3MTc4MA==,size_16,color_FFFFFF,t_70" alt="测试成功网页"><br> <img src="https://img-blog.csdnimg.cn/20200324134144768.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NTE3MTc4MA==,size_16,color_FFFFFF,t_70" alt="测试成功"></li>
+</ol>
 ]]></content>
       <tags>
         <tag>练习</tag>
